@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo - Portfólio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">GUSTAVO LUZ</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#sobre-mim">Sobre Mim</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Meu Portfólio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+	
+        <div id="sobre-mim" class="row align-items-center">
+            <div class="col-lg-6">
+                <h1>Olá, meu nome é Gustavo Luz</h1>
+                <p>Formando em TADS pelo IFMT - Campo Verde</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="img/minha_foto.png" class="img-fluid rounded-circle" alt="Sua Imagem" width="50%" height="50%">
+            </div>
+        </div>
+		
+        <h2 id="portfolio" class="pt-5">Meu Portfólio</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="img/app.jpg" class="img-fluid rounded" alt="Site 1">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="img/app.jpg" class="img-fluid rounded" alt="Site 2">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <img src="img/app.jpg" class="img-fluid rounded" alt="Site 3">
+            </div>
+        </div>
+		
+        <h2 id="contato" class="pt-5">Contato</h2>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <p>Informe seu e-mail:</p>
+				 <form action="#">
+					<input type="email" placeholder="Seu e-mail" class="form-control mb-3">
+					<input type="submit" value="Enviar" class="btn btn-primary btn-block">
+				</form>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="img/contato.jpeg" class="img-fluid rounded-circle" alt="Contato">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
